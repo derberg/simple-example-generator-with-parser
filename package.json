@@ -1,0 +1,25 @@
+{
+  "name": "simple-example-generator-with-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derberg/simple-example-generator-with-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/derberg/simple-example-generator-with-parser/issues"
+  },
+  "homepage": "https://github.com/derberg/simple-example-generator-with-parser#readme",
+  "dependencies": {
+    "@asyncapi/generator": "^1.0.0-rc.13",
+    "@asyncapi/parser": "0.18.0"
+  }
+}
