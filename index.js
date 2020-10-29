@@ -16,7 +16,8 @@ async function run() {
     });
     
     const parsed = await parser.parse(sourceString);    
-    console.log("Constructor", parsed.constructor.name)
+    console.log("Constructor name", parsed.constructor.name)
+    console.log("Is Constructor of AsyncAPIDocument?", parsed.constructor.name === 'AsyncAPIDocument')
     await generator.generate(parsed);
 
   } catch (e) {
